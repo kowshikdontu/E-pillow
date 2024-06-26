@@ -7,8 +7,8 @@ import time
 FSR_PIN = 17  # GPIO pin connected to the FSR
 MOSFET_PIN = 18  # GPIO pin connected to the MOSFET
 BUZZER_PIN = 21  # GPIO pin connected to the buzzer
-TOKEN = '6792117338:AAGWKJEU5B0iw1AO43BsxXXd3_tZmtn2z44'
-CHAT_ID = [5867382409, 1844173274]
+TOKEN = # telegram token
+CHAT_ID = #[ list of chat ids of near and dear ]
 
 class FSR(threading.Thread):
     def __init__(self):
